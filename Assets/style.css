@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* specifies body color */
+body {
+    background-color: #d9dcd6;
+}
+/*header element specifying padding, font family, background-color, and text color */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* makes title inside header display as block and gives it a font size */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* seo a seperate color from rest of h1 */
+header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* gives charecteristics to rest of header blocks */
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* ol makes list inside header order matter */
+header nav ol {
+    list-style-type: none;
+}
+
+header nav ol li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* large 1st image created and creates size of image */
+figure {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("images/digital-marketing-meeting.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* images will float to left side of its container */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* images will float right side of its container */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*creates section with main web content inside of it */
+article {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+ /* creates right side box with side content */
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/*size and colors inside benefits sections in aside column*/
+.benefits {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/*controls sizing and font of containers and texts in article section*/
+.article-sections {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* sizing properties for images and text inside containers in article tag */
+.article-sections img {
+    max-height: 200px;
+}
+.article-sections h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+/*bottom footer of the web page */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
